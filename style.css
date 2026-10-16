@@ -1,4 +1,65 @@
 *{box-sizing:border-box}body{margin:0;background:#f3f6fa;color:#27384b;font:17px/1.8 Arial,Helvetica,sans-serif}main{max-width:1080px;margin:24px auto;background:white;padding:32px 40px;border-top:4px solid #0056a8;border-radius:8px}a{color:#0056a8;text-decoration:none}a:hover{text-decoration:underline}a:focus-visible{outline:3px solid #de9d24;outline-offset:3px}h1{font-size:28px;line-height:1.45;color:#064d8c;margin:24px 0 12px}h2{font-size:22px;color:#075493;margin:30px 0 12px}h3{font-size:18px;color:#183d62}p{margin:0 0 18px;overflow-wrap:anywhere}.date{font-size:14px;color:#627387;margin:12px 0 24px}.tabs{display:flex;gap:7px;flex-wrap:wrap;margin:20px 0}.tabs a{display:block;padding:7px 11px;border:1px solid #d3e0ed;border-radius:5px;background:#f6f9fd;font-size:14px;white-space:nowrap}.tabs a[aria-current]{background:#0056a8;color:white;border-color:#0056a8}.pager{display:flex;justify-content:space-between;gap:12px;border-top:1px solid #dde6ef;padding-top:20px;margin-top:24px}.article-list{padding:0;list-style:none}.article-list li{border-bottom:1px solid #e5edf4;padding:18px 0}.article-list a{font-weight:bold}.article-list small{display:block;font-size:13px;color:#65778a}.toolbar{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin:24px 0}input{padding:12px;border:1px solid #b8c9db;border-radius:6px;font:inherit;flex:1;min-width:180px}.source{font-size:14px;color:#617184;font-style:italic}.table-wrap{overflow-x:auto;margin:20px 0}table{border-collapse:collapse;width:100%;min-width:650px;font-size:15px;line-height:1.6}th,td{border:1px solid #cfdce8;padding:13px;vertical-align:top}th{background:#eaf2fa;color:#173f65;text-align:left}td p,th p{margin:0 0 10px}tr:nth-child(even){background:#f8fafc}.box{background:#f1f6fc;border-left:4px solid #3074b2;padding:22px;margin:24px 0}.pending{padding:26px;background:#f5f8fc;border-radius:8px}.count{color:#607287;font-size:14px}@media(max-width:700px){main{margin:0;padding:20px 16px;border-radius:0}body{font-size:16px}h1{font-size:23px}.tabs{flex-wrap:nowrap;overflow-x:auto;padding:4px 2px 12px}.tabs a{flex-shrink:0}.pager{font-size:14px}h2{font-size:20px}}@media print{body{background:white}main{padding:0;border:0;margin:0;max-width:none}.tabs,.pager,.back,.toolbar{display:none}table{min-width:0;font-size:10pt}.table-wrap{overflow:visible}h1,h2,h3{break-after:avoid}}
-/* Căn đều hai lề nội dung bài viết */
-article p{ text-align:justify; text-justify:inter-word; text-align-last:start; }
-article p.date,article p.source,article th p,article td p{ text-align:left; }
+
+/* Định dạng nội dung thống nhất cho 20 bài viết */
+article {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #222;
+}
+article p, article li {
+  text-align: justify;
+  text-justify: inter-word;
+  text-align-last: start;
+  overflow-wrap: break-word;
+}
+article p {
+  margin: 0 0 16px;
+  text-indent: 0;
+}
+article h2, article h3, article h4 {
+  font-family: inherit;
+  font-size: 1em;
+  line-height: inherit;
+  font-weight: 700;
+  color: inherit;
+  text-align: justify;
+  margin: 24px 0 16px;
+}
+article ul, article ol {
+  margin: 0 0 16px;
+  padding-left: 28px;
+}
+article li { margin-bottom: 8px; }
+article li > p:last-child { margin-bottom: 0; }
+article strong, article b { font-weight: 700; }
+article a { color: #0056a8; text-decoration: underline; }
+article a:hover { text-decoration-thickness: 2px; }
+article .date {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #627387;
+  text-align: left;
+  margin: 12px 0 24px;
+}
+article .source {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #617184;
+  font-style: italic;
+  text-align: left;
+}
+article table { font-family: inherit; }
+article th p, article td p {
+  text-align: left;
+  margin-bottom: 10px;
+}
+article th p:last-child, article td p:last-child { margin-bottom: 0; }
+article img { max-width: 100%; height: auto; }
+@media (max-width: 700px) {
+  article { font-size: 16px; }
+}
+@media print {
+  article { font-size: 12pt; line-height: 1.5; color: #000; }
+  article table { font-size: 10pt; }
+}
