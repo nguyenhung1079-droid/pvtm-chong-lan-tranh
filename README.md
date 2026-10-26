@@ -1,3 +1,5 @@
+> **Cập nhật thứ tự 26/10/2026:** theo yêu cầu mới, index sắp xếp ngày đăng giảm dần (mới nhất trước), thay thế quy tắc giữ thứ tự 01–20 trong hồ sơ trước. Các bài cùng ngày giữ thứ tự tương đối. Đã đồng bộ GitHub và IIS; đủ 20 bài, HTTP 200, SHA256 khớp. Commit HTML: `289a76dc493de8ae2b78eb4342c5c27fc52daaf0`. Backup index IIS trước sửa: `C:\BanTinBackups\bai-viet-pvtm-sort-20261026-145607\index-before.html`. Ngày đăng và nội dung bài không đổi; điều hướng Bài trước/Bài sau vẫn theo số bài.
+
 > **Trạng thái mới nhất — 26/10/2026:** xem [bàn giao bản IIS và mã nhúng mới](TRANG_THAI_2026-10-26_IIS.md). Đã triển khai bản sao tại `C:\Web\bantin\bai-viet-pvtm`; iframe dùng `https://bantin.trav.gov.vn/bai-viet-pvtm/`. HTTPS từ máy chủ còn lỗi tin cậy chứng chỉ. Các hướng dẫn về iframe GitHub bên dưới là lịch sử; ưu tiên bản bàn giao mới.
 
 # Chuyên mục bài viết chống lẩn tránh biện pháp phòng vệ thương mại và gian lận xuất xứ
