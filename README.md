@@ -180,3 +180,34 @@ Với dự án tương tự, chuẩn bị:
 - Kho GitHub và trang đích cần nhúng nếu có.
 
 Không công khai mật khẩu, khóa truy cập, dữ liệu cá nhân hoặc tài liệu nội bộ trong kho.
+
+## 10. Hiệu đính ngày đăng — 26/10/2026
+
+Danh sách người dùng xác nhận ngày 26/10/2026 thay thế lịch ngày đăng trước đó. Giữ thứ tự 01–20, không sắp xếp lại theo ngày; chuẩn hóa dd/mm/yyyy. Đồng bộ index, ngày đầu và cuối bài, cùng thuộc tính datetime. Giữ nguyên nội dung và giao diện.
+
+| Bài | Ngày đăng |
+|---|---|
+| 01 | 12/08/2026 |
+| 02 | 20/08/2026 |
+| 03 | 26/08/2026 |
+| 04 | 05/09/2026 |
+| 05 | 12/09/2026 |
+| 06 | 19/09/2026 |
+| 07 | 26/09/2026 |
+| 08 | 12/08/2026 |
+| 09 | 20/08/2026 |
+| 10 | 26/08/2026 |
+| 11 | 05/09/2026 |
+| 12 | 12/09/2026 |
+| 13 | 19/09/2026 |
+| 14 | 26/09/2026 |
+| 15 | 12/08/2026 |
+| 16 | 20/08/2026 |
+| 17 | 26/08/2026 |
+| 18 | 05/09/2026 |
+| 19 | 12/09/2026 |
+| 20 | 30/09/2026 |
+
+- 19 bài thay đổi ngày; bài 20 giữ 30/09/2026.
+- Backup trước hiệu đính: [backup-2026-10-26-truoc-hieu-dinh-ngay](https://github.com/nguyenhung1079-droid/pvtm-chong-lan-tranh/tree/backup-2026-10-26-truoc-hieu-dinh-ngay).
+- Commit hoàn tất cập nhật HTML: `22f3e226fee2a50e00b2951aa31c0bf421a3bed3`.
