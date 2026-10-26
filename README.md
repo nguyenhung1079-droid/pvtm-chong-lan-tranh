@@ -1,3 +1,5 @@
+> **Trạng thái mới nhất — 26/10/2026:** xem [bàn giao bản IIS và mã nhúng mới](TRANG_THAI_2026-10-26_IIS.md). Đã triển khai bản sao tại `C:\Web\bantin\bai-viet-pvtm`; iframe dùng `https://bantin.trav.gov.vn/bai-viet-pvtm/`. HTTPS từ máy chủ còn lỗi tin cậy chứng chỉ. Các hướng dẫn về iframe GitHub bên dưới là lịch sử; ưu tiên bản bàn giao mới.
+
 # Chuyên mục bài viết chống lẩn tránh biện pháp phòng vệ thương mại và gian lận xuất xứ
 
 Website HTML tĩnh gồm 20 bài viết, phục vụ hiển thị chuyên mục và nhúng vào website Cục Phòng vệ thương mại.
